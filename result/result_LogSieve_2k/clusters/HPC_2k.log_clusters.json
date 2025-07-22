@@ -1,0 +1,23 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "clusterAddMember ( command <*> )",
+        "samples": [
+          "clusterAddMember  (command 1902)",
+          "clusterAddMember  (command 1900)"
+        ],
+        "template_id": "68c49854"
+      },
+      {
+        "template": "risBoot ( command <*> )",
+        "samples": [
+          "risBoot  (command 1903)"
+        ],
+        "template_id": "df2aba27"
+      }
+    ],
+    "total_occurrences": 3
+  }
+]

@@ -1,0 +1,2 @@
+Dataset,Template,AnomalyScore,WildcardRatio,ConsecutiveWildcards,WildcardDensity,SymbolDensity,NumericDensity,Sample1,Sample2,Sample3
+Spark_2k.log,Input split : hdfs : <*> : 9000/pjhe/logs/2kSOSP.log : <*>,0.54,13.3%,8.0%,89.9%,0.73,0.3333333333333333,Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:102088+7292,Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292,Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292

@@ -1,0 +1,35 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "<*> close , <*> bytes sent , <*> bytes ( <*> ) received , lifetime <*>",
+        "samples": [
+          "drive-thirdparty.googleusercontent.com:443 close, 484 bytes sent, 4707 bytes (4.59 KB) received, lifetime 00:17",
+          "proxy.cse.cuhk.edu.hk:5070 close, 451 bytes sent, 18846 bytes (18.4 KB) received, lifetime <1 sec",
+          "qqmail.tencent.com:80 close, 336 bytes sent, 2854 bytes (2.78 KB) received, lifetime 00:01"
+        ],
+        "template_id": "0c694e13"
+      },
+      {
+        "template": "<*> close , <*> bytes ( <*> ) sent , <*> bytes ( <*> ) received , lifetime <*>",
+        "samples": [
+          "BAYMSGR2012806.gateway.messenger.live.com:443 close, 13155 bytes (12.8 KB) sent, 21737 bytes (21.2 KB) received, lifetime 00:35",
+          "proxy.cse.cuhk.edu.hk:5070 close, 1268 bytes (1.23 KB) sent, 6274 bytes (6.12 KB) received, lifetime <1 sec",
+          "r6---sn-i3b7kn7d.googlevideo.com:443 close, 12789 bytes (12.4 KB) sent, 13833013 bytes (13.1 MB) received, lifetime 01:01"
+        ],
+        "template_id": "4585208e"
+      },
+      {
+        "template": "<*> close , <*> bytes ( <*> ) sent , <*> bytes received , lifetime <*>",
+        "samples": [
+          "avatars1.githubusercontent.com:443 close, 1145 bytes (1.11 KB) sent, 666 bytes received, lifetime 05:03",
+          "proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 815 bytes received, lifetime <1 sec",
+          "www.googletagservices.com:443 close, 1257 bytes (1.22 KB) sent, 540 bytes received, lifetime 04:00"
+        ],
+        "template_id": "e1ab64e0"
+      }
+    ],
+    "total_occurrences": 592
+  }
+]

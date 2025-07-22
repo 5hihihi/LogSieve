@@ -1,0 +1,82 @@
+{
+  "dataset": "Hadoop_2k.log",
+  "generated_time": "2025-07-17T15:52:48.968405",
+  "anomaly_count": 5,
+  "anomalies": [
+    {
+      "template": "Cannot assign container Container : [ ContainerId : <*> , NodeId : MSRA-SA-39.fareast.corp.microsoft.com : <*> , NodeHttpAddress : MSRA-SA-39.fareast.corp.microsoft.com : <*> , Resource : <memory : <*> , vCores : 1> , Priority : <*> , Token : Token { kind : ContainerToken , service : <*> : <*> } , ] for a map as either container memory less than required <memory : <*> , vCores : 1> or no pending map tasks - maps.isEmpty = true",
+      "score": 0.68,
+      "metrics": {
+        "wildcard_ratio": 0.06837606837606838,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.8764931506849316,
+        "density_fluctuation": 0.062465753424657544,
+        "symbol_density": 0.8,
+        "numeric_density": 1
+      },
+      "samples": [
+        "Cannot assign container Container: [ContainerId: container_1445144423722_0020_01_000012, NodeId: MSRA-SA-39.fareast.corp.microsoft.com:28345, NodeHttpAddress: MSRA-SA-39.fareast.corp.microsoft.com:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: 172.22.149.145:28345 }, ] for a map as either  container memory less than required <memory:1024, vCores:1> or no pending map tasks - maps.isEmpty=true"
+      ]
+    },
+    {
+      "template": "Error Recovery for block BP-1347369012-<*>-1444972147527 : <*> in pipeline <*> : <*> , <*> : <*> : bad datanode <*> : <*>",
+      "score": 0.59,
+      "metrics": {
+        "wildcard_ratio": 0.21212121212121213,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9449411764705884,
+        "density_fluctuation": 0.16470588235294123,
+        "symbol_density": 0.84,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "Error Recovery for block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731 in pipeline 10.86.169.121:50010, 10.190.173.170:50010: bad datanode 10.190.173.170:50010"
+      ]
+    },
+    {
+      "template": "Slow ReadProcessor read fields took 65020ms ( threshold = 30000ms ) ; ack : seqno : <*> status : SUCCESS status : ERROR downstreamAckTimeNanos : <*> , targets : [ <*> : <*> , <*> : <*> ]",
+      "score": 0.47,
+      "metrics": {
+        "wildcard_ratio": 0.10526315789473684,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.934787878787879,
+        "density_fluctuation": 0.11393939393939397,
+        "symbol_density": 0.12,
+        "numeric_density": 0.6666666666666666
+      },
+      "samples": [
+        "Slow ReadProcessor read fields took 65020ms (threshold=30000ms); ack: seqno: -2 status: SUCCESS status: ERROR downstreamAckTimeNanos: 0, targets: [10.86.169.121:50010, 10.190.173.170:50010]"
+      ]
+    },
+    {
+      "template": "Instantiated MRClientService at MININT-FNANLI5.fareast.corp.microsoft.com/<*> : <*>",
+      "score": 0.41,
+      "metrics": {
+        "wildcard_ratio": 0.1111111111111111,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.23111111111111113,
+        "density_fluctuation": 0.08888888888888889,
+        "symbol_density": 1.0,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "Instantiated MRClientService at MININT-FNANLI5.fareast.corp.microsoft.com/10.86.169.121:62260"
+      ]
+    },
+    {
+      "template": "Extract jar : file : /D : /hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C : \\Users\\msrabi\\AppData\\Local\\Temp\\<*>.8n7xum\\webapp",
+      "score": 0.38,
+      "metrics": {
+        "wildcard_ratio": 0.0,
+        "consecutive_wildcards": 0.0,
+        "wildcard_density": 0.0,
+        "density_fluctuation": 0.0,
+        "symbol_density": 1.0,
+        "numeric_density": 0.6666666666666666
+      },
+      "samples": [
+        "Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp"
+      ]
+    }
+  ]
+}

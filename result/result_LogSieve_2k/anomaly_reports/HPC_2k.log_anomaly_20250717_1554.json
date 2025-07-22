@@ -1,0 +1,132 @@
+{
+  "dataset": "HPC_2k.log",
+  "generated_time": "2025-07-17T15:54:19.705339",
+  "anomaly_count": 8,
+  "anomalies": [
+    {
+      "template": "Fan speeds ( <*> <*> <*> <*> <*> <*> )",
+      "score": 0.49,
+      "metrics": {
+        "wildcard_ratio": 0.4,
+        "consecutive_wildcards": 1.0,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.26666666666666666,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Fan speeds ( 3552 3534 3375 11637 3515 3479 )",
+        "Fan speeds ( 3552 3552 3391 **** 3515 3497 )",
+        "Fan speeds ( 3534 3534 3375 **** 3497 3479 )"
+      ]
+    },
+    {
+      "template": "inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>",
+      "score": 0.45,
+      "metrics": {
+        "wildcard_ratio": 0.38095238095238093,
+        "consecutive_wildcards": 0.76,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.4222222222222222,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "inconsistent nodesets node-160 0x0001edfe <ok> node-161 0x1001fdfe <ok> node-162 0x1001fdfe <ok> node-163 0x1001fdfe <ok>",
+        "inconsistent nodesets node-32 0x00000002 <ok> node-34 0x000001fe <ok> node-33 0x000001fe <ok> node-35 0x000001fe <ok>"
+      ]
+    },
+    {
+      "template": "Component State Change : Component \\042SCSI-WWID : <*> : 6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state ( HWID<*> )",
+      "score": 0.37,
+      "metrics": {
+        "wildcard_ratio": 0.037037037037037035,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.16615384615384618,
+        "density_fluctuation": 0.03076923076923077,
+        "symbol_density": 0.69,
+        "numeric_density": 0.6666666666666666
+      },
+      "samples": [
+        "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)"
+      ]
+    },
+    {
+      "template": "Link error on broadcast tree <*> : <*> : <*> : <*>",
+      "score": 0.33,
+      "metrics": {
+        "wildcard_ratio": 0.2222222222222222,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.21428571428571433,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Link error on broadcast tree Interconnect-0T00:00:2:1",
+        "Link error on broadcast tree Interconnect-1T00:00:3:6",
+        "Link error on broadcast tree Interconnect-1T00:00:2:0"
+      ]
+    },
+    {
+      "template": "Targeting domains : node-D7 and nodes : node- [ 224\\ 228\\ <*> ]",
+      "score": 0.27,
+      "metrics": {
+        "wildcard_ratio": 0.05128205128205128,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.16500000000000004,
+        "density_fluctuation": 0.025,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "Targeting domains:node-D7 and nodes:node-[224\\ 228\\ 232]"
+      ]
+    },
+    {
+      "template": "Targeting domains : node-D [ 0\\ <*> ] and nodes : node- [ 27\\ <*> ]",
+      "score": 0.2,
+      "metrics": {
+        "wildcard_ratio": 0.08333333333333333,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.17090909090909095,
+        "density_fluctuation": 0.05454545454545456,
+        "symbol_density": 0.0,
+        "numeric_density": 0.6666666666666666
+      },
+      "samples": [
+        "Targeting domains:node-D[0\\ 5] and nodes:node-[27\\ 191]"
+      ]
+    },
+    {
+      "template": "inconsistent nodesets node-1 0x000001fc <ok> node-2 0x000001fc <ok> node-7 0x000001fc <ok> node-4 0x000001fc <ok> node-6 0x000001fc <ok> node-5 0x000001fc <ok> node-3 0x000001fc <ok> node-14 0x0003fdfc <ok> node-13 0x0003fdfc <ok> node-12 0x0003fdfc <ok> node-10 0x0003fdfc <ok> node-16 0x0003fdfc <ok> node-15 0x0003fdfc <ok>",
+      "score": 0.2,
+      "metrics": {
+        "wildcard_ratio": 0.0,
+        "consecutive_wildcards": 0.0,
+        "wildcard_density": 0.0,
+        "density_fluctuation": 0.0,
+        "symbol_density": 0.0,
+        "numeric_density": 1
+      },
+      "samples": [
+        "inconsistent nodesets node-1 0x000001fc <ok> node-2 0x000001fc <ok> node-7 0x000001fc <ok> node-4 0x000001fc <ok> node-6 0x000001fc <ok> node-5 0x000001fc <ok> node-3 0x000001fc <ok> node-14 0x0003fdfc <ok> node-13 0x0003fdfc <ok> node-12 0x0003fdfc <ok> node-10 0x0003fdfc <ok> node-16 0x0003fdfc <ok> node-15 0x0003fdfc <ok>"
+      ]
+    },
+    {
+      "template": "inconsistent nodesets node-31 0x1fffffffe <ok> node-0 0xfffffffe <ok> node-1 0xfffffffe <ok> node-2 0xfffffffe <ok> node-30 0xfffffffe <ok>",
+      "score": 0.2,
+      "metrics": {
+        "wildcard_ratio": 0.0,
+        "consecutive_wildcards": 0.0,
+        "wildcard_density": 0.0,
+        "density_fluctuation": 0.0,
+        "symbol_density": 0.0,
+        "numeric_density": 1
+      },
+      "samples": [
+        "inconsistent nodesets node-31 0x1fffffffe <ok> node-0 0xfffffffe <ok> node-1 0xfffffffe <ok> node-2 0xfffffffe <ok> node-30 0xfffffffe <ok>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "Spark_2k.log",
+  "generated_time": "2025-07-17T15:58:02.354804",
+  "anomaly_count": 1,
+  "anomalies": [
+    {
+      "template": "Input split : hdfs : <*> : 9000/pjhe/logs/2kSOSP.log : <*>",
+      "score": 0.54,
+      "metrics": {
+        "wildcard_ratio": 0.13333333333333333,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.8990476190476193,
+        "density_fluctuation": 0.3352380952380953,
+        "symbol_density": 0.73,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:102088+7292",
+        "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292",
+        "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:14584+7292"
+      ]
+    }
+  ]
+}

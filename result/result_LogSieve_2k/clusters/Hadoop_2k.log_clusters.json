@@ -1,0 +1,71 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "Processing the event EventType : <*>",
+        "samples": [
+          "Processing the event EventType: TASK_ABORT",
+          "Processing the event EventType: JOB_SETUP"
+        ],
+        "template_id": "94ada1c0"
+      },
+      {
+        "template": "Processing the event EventType : <*> for container <*> taskAttempt <*>",
+        "samples": [
+          "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0",
+          "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000002 taskAttempt attempt_1445144423722_0020_m_000000_0",
+          "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000003 taskAttempt attempt_1445144423722_0020_m_000001_0"
+        ],
+        "template_id": "f5a521b8"
+      }
+    ],
+    "total_occurrences": 16
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "Before Scheduling : PendingReds : <*> ScheduledMaps : <*> ScheduledReds : <*> AssignedMaps : <*> AssignedReds : <*> CompletedMaps : <*> CompletedReds : <*> ContAlloc : <*> ContRel : <*> HostLocal : <*> RackLocal : <*>",
+        "samples": [
+          "Before Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3",
+          "Before Scheduling: PendingReds:1 ScheduledMaps:10 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:0 ContRel:0 HostLocal:0 RackLocal:0",
+          "Before Scheduling: PendingReds:0 ScheduledMaps:2 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3"
+        ],
+        "template_id": "09bedc6f"
+      },
+      {
+        "template": "After Scheduling : PendingReds : <*> ScheduledMaps : <*> ScheduledReds : <*> AssignedMaps : <*> AssignedReds : <*> CompletedMaps : <*> CompletedReds : <*> ContAlloc : <*> ContRel : <*> HostLocal : <*> RackLocal : <*>",
+        "samples": [
+          "After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:10 ContRel:0 HostLocal:7 RackLocal:3",
+          "After Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3",
+          "After Scheduling: PendingReds:1 ScheduledMaps:9 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:0 RackLocal:1"
+        ],
+        "template_id": "7a55102f"
+      }
+    ],
+    "total_occurrences": 17
+  },
+  {
+    "cluster_id": "C0003",
+    "templates": [
+      {
+        "template": "Task : <*> - exited : java.net.NoRouteToHostException : No Route to Host from MININT-FNANLI5/<*> to msra-sa-41 : <*> failed on socket timeout exception : java.net.NoRouteToHostException : No route to host : no further information; For more details see : http : //wiki.apache.org/hadoop/NoRouteToHost",
+        "samples": [
+          "Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost",
+          "Task: attempt_1445144423722_0020_m_000001_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost"
+        ],
+        "template_id": "c747762c"
+      },
+      {
+        "template": "Diagnostics report from <*> : Error : java.net.NoRouteToHostException : No Route to Host from MININT-FNANLI5/<*> to msra-sa-41 : <*> failed on socket timeout exception : java.net.NoRouteToHostException : No route to host : no further information; For more details see : http : //wiki.apache.org/hadoop/NoRouteToHost",
+        "samples": [
+          "Diagnostics report from attempt_1445144423722_0020_m_000002_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost",
+          "Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost"
+        ],
+        "template_id": "80e712d0"
+      }
+    ],
+    "total_occurrences": 6
+  }
+]

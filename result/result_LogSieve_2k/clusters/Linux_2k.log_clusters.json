@@ -1,0 +1,147 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "authentication failure; logname = uid = <*> euid = <*> tty = NODEVssh ruser = rhost = <*>",
+        "samples": [
+          "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net",
+          "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4",
+          "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com"
+        ],
+        "template_id": "db937e3f"
+      },
+      {
+        "template": "authentication failure; logname = uid = <*> euid = <*> tty = NODEVssh ruser = rhost = <*> user = <*>",
+        "samples": [
+          "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root",
+          "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.46.224.253  user=guest",
+          "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test"
+        ],
+        "template_id": "4ca21f1b"
+      }
+    ],
+    "total_occurrences": 489
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "session opened for user <*> by ( uid = <*> )",
+        "samples": [
+          "session opened for user test by (uid=509)",
+          "session opened for user cyrus by (uid=0)",
+          "session opened for user news by (uid=0)"
+        ],
+        "template_id": "52beb511"
+      },
+      {
+        "template": "session opened for user root by LOGIN ( uid = <*> )",
+        "samples": [
+          "session opened for user root by LOGIN(uid=0)"
+        ],
+        "template_id": "01107b83"
+      }
+    ],
+    "total_occurrences": 123
+  },
+  {
+    "cluster_id": "C0003",
+    "templates": [
+      {
+        "template": "connection from <*> ( <*> ) at <*> <*> <*> <*> <*>",
+        "samples": [
+          "connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005",
+          "connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005",
+          "connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005"
+        ],
+        "template_id": "ef9bd135"
+      },
+      {
+        "template": "connection from <*> ( ) at <*> <*> <*> <*> <*>",
+        "samples": [
+          "connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005",
+          "connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005",
+          "connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005"
+        ],
+        "template_id": "07c6aefc"
+      }
+    ],
+    "total_occurrences": 848
+  },
+  {
+    "cluster_id": "C0004",
+    "templates": [
+      {
+        "template": "BIOS-e820 : <*> - <*> ( usable )",
+        "samples": [
+          "BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)",
+          "BIOS-e820: 0000000000100000 - 0000000007eae000 (usable)"
+        ],
+        "template_id": "73616448"
+      },
+      {
+        "template": "mtrr : v2.0 ( <*> )",
+        "samples": [
+          "mtrr: v2.0 (20020519)"
+        ],
+        "template_id": "50d6bb0f"
+      }
+    ],
+    "total_occurrences": 3
+  },
+  {
+    "cluster_id": "C0005",
+    "templates": [
+      {
+        "template": "Normal zone : <*> pages , LIFO batch : <*>",
+        "samples": [
+          "Normal zone: 28334 pages, LIFO batch:6"
+        ],
+        "template_id": "a2dfda88"
+      },
+      {
+        "template": "HighMem zone : <*> pages , LIFO batch : <*>",
+        "samples": [
+          "HighMem zone: 0 pages, LIFO batch:1"
+        ],
+        "template_id": "ee94dc44"
+      }
+    ],
+    "total_occurrences": 2
+  },
+  {
+    "cluster_id": "C0006",
+    "templates": [
+      {
+        "template": "PID hash table entries : <*> ( order <*> : <*> bytes )",
+        "samples": [
+          "PID hash table entries: 512 (order 9: 4096 bytes)"
+        ],
+        "template_id": "3b9d2575"
+      },
+      {
+        "template": "Inode-cache hash table entries : <*> ( order : <*> , <*> bytes )",
+        "samples": [
+          "Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)"
+        ],
+        "template_id": "8af3b047"
+      },
+      {
+        "template": "Mount-cache hash table entries : <*> ( order : <*> , <*> bytes )",
+        "samples": [
+          "Mount-cache hash table entries: 512 (order: 0, 4096 bytes)"
+        ],
+        "template_id": "e3442fbc"
+      },
+      {
+        "template": "Dquot-cache hash table entries : <*> ( order <*> , <*> bytes )",
+        "samples": [
+          "Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)"
+        ],
+        "template_id": "07909fcd"
+      }
+    ],
+    "total_occurrences": 4
+  }
+]

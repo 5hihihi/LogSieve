@@ -1,0 +1,68 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "[ instance : <*> ] VM Started ( Lifecycle Event )",
+        "samples": [
+          "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Started (Lifecycle Event)",
+          "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Started (Lifecycle Event)",
+          "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Started (Lifecycle Event)"
+        ],
+        "template_id": "03654be0"
+      },
+      {
+        "template": "[ instance : <*> ] VM Paused ( Lifecycle Event )",
+        "samples": [
+          "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Paused (Lifecycle Event)",
+          "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Paused (Lifecycle Event)",
+          "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Paused (Lifecycle Event)"
+        ],
+        "template_id": "aaa9cec6"
+      },
+      {
+        "template": "[ instance : <*> ] VM Resumed ( Lifecycle Event )",
+        "samples": [
+          "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Resumed (Lifecycle Event)",
+          "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Resumed (Lifecycle Event)",
+          "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Resumed (Lifecycle Event)"
+        ],
+        "template_id": "0c98701e"
+      },
+      {
+        "template": "[ instance : <*> ] VM Stopped ( Lifecycle Event )",
+        "samples": [
+          "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Stopped (Lifecycle Event)",
+          "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Stopped (Lifecycle Event)",
+          "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Stopped (Lifecycle Event)"
+        ],
+        "template_id": "5a21c5a9"
+      }
+    ],
+    "total_occurrences": 109
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "[ instance : <*> ] Took <*> seconds to spawn the instance on the hypervisor.",
+        "samples": [
+          "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 19.05 seconds to spawn the instance on the hypervisor.",
+          "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 19.96 seconds to spawn the instance on the hypervisor.",
+          "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Took 19.37 seconds to spawn the instance on the hypervisor."
+        ],
+        "template_id": "198db1bf"
+      },
+      {
+        "template": "[ instance : <*> ] Took <*> seconds to destroy the instance on the hypervisor.",
+        "samples": [
+          "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 1.03 seconds to destroy the instance on the hypervisor.",
+          "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 1.11 seconds to destroy the instance on the hypervisor.",
+          "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Took 1.05 seconds to destroy the instance on the hypervisor."
+        ],
+        "template_id": "0e78db29"
+      }
+    ],
+    "total_occurrences": 43
+  }
+]

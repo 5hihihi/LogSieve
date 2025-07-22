@@ -1,0 +1,37 @@
+{
+  "dataset": "OpenStack_2k.log",
+  "generated_time": "2025-07-17T15:54:00.976380",
+  "anomaly_count": 2,
+  "anomalies": [
+    {
+      "template": "Running instance usage audit for host <*> from <*> <*> : <*> : <*> to <*> <*> : <*> : <*> <*> instances.",
+      "score": 0.44,
+      "metrics": {
+        "wildcard_ratio": 0.2898550724637681,
+        "consecutive_wildcards": 0.76,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.1322222222222222,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-16 05:00:00 to 2017-05-16 06:00:00. 87 instances."
+      ]
+    },
+    {
+      "template": "Compute_service record updated for <*> : <*>",
+      "score": 0.35,
+      "metrics": {
+        "wildcard_ratio": 0.19047619047619047,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9520000000000002,
+        "density_fluctuation": 0.28,
+        "symbol_density": 0.15,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us"
+      ]
+    }
+  ]
+}

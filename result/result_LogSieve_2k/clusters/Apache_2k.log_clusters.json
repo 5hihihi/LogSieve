@@ -1,0 +1,26 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "jk2_init ( ) Found child <*> in scoreboard slot <*>",
+        "samples": [
+          "jk2_init() Found child 32353 in scoreboard slot 10",
+          "jk2_init() Found child 6726 in scoreboard slot 8",
+          "jk2_init() Found child 6728 in scoreboard slot 6"
+        ],
+        "template_id": "96015ea7"
+      },
+      {
+        "template": "jk2_init ( ) Can't find child <*> in scoreboard",
+        "samples": [
+          "jk2_init() Can't find child 1566 in scoreboard",
+          "jk2_init() Can't find child 1567 in scoreboard",
+          "jk2_init() Can't find child 2082 in scoreboard"
+        ],
+        "template_id": "4d4506f6"
+      }
+    ],
+    "total_occurrences": 848
+  }
+]

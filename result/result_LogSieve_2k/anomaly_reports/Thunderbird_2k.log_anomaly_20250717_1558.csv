@@ -1,0 +1,11 @@
+Dataset,Template,AnomalyScore,WildcardRatio,ConsecutiveWildcards,WildcardDensity,SymbolDensity,NumericDensity,Sample1,Sample2,Sample3
+Thunderbird_2k.log,DHCPDISCOVER from <*> : <*> : <*> : e3 : ba : c3 via eth1,0.53,13.3%,8.0%,100.0%,0.0,1.0,DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1,,
+Thunderbird_2k.log,DHCPOFFER on <*> to <*> : <*> : <*> : e3 : ba : c3 via eth1,0.53,15.7%,8.0%,100.0%,0.0,1.0,DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,,
+Thunderbird_2k.log,DHCPACK on <*> to <*> : <*> : <*> : e3 : ba : c3 via eth1,0.53,15.7%,8.0%,100.0%,0.0,1.0,DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1,,
+Thunderbird_2k.log,DHCPDISCOVER from <*> : <*> : <*> : e3 : ba : c3 via eth1 : network A_net : no free leases,0.52,9.1%,8.0%,100.0%,0.0,1.0,DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases,,
+Thunderbird_2k.log,"root = LABEL = / initrd = /x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console = tty0 console = ttyS0 , <*> fastboot BOOT_IMAGE = /x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr",0.51,3.3%,8.0%,16.3%,0.98,1.0,"root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr",,
+Thunderbird_2k.log,"sys_ia32.c , v <*> <*> <*> : <*> : <*> ak Exp $",0.49,25.6%,64.0%,100.0%,0.0,0.3333333333333333,"sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $",,
+Thunderbird_2k.log,probe new device 0x1028 : 0x0013 : 0x1028 : 0x016c : bus <*> : slot <*> : func <*>,0.49,10.5%,8.0%,89.5%,0.0,1.0,probe new device 0x1028:0x0013:0x1028:0x016c: bus 2:slot 14:func 0,,
+Thunderbird_2k.log,"PCI Interrupt Link [ <*> ] ( IRQs <*> <*> <*> <*> <*> <*> <*> <*> ) <*> , disabled.",0.48,33.3%,100.0%,100.0%,0.0,0.0,"PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.","PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 10 11 12) *0, disabled."
+Thunderbird_2k.log,<*> ( Release Date : <*> <*> <*> <*> : <*> : <*> <*> <*> ),0.48,37.5%,92.0%,100.0%,0.0,0.0,#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004),#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004),
+Thunderbird_2k.log,Transparent bridge - <*> : <*> : 1e.0,0.39,16.7%,8.0%,97.5%,0.0,0.3333333333333333,Transparent bridge - 0000:00:1e.0,,

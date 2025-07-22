@@ -1,0 +1,23 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "bulkSaveDetailHiHealthData ( ) size = <*> , totalTime = <*>",
+        "samples": [
+          "bulkSaveDetailHiHealthData() size = 20,totalTime = 34",
+          "bulkSaveDetailHiHealthData() size = 4,totalTime = 30"
+        ],
+        "template_id": "745200bd"
+      },
+      {
+        "template": "saveRealTimeHealthDatasStat ( ) size = <*> , totalTime = <*>",
+        "samples": [
+          "saveRealTimeHealthDatasStat() size = 1,totalTime = 48"
+        ],
+        "template_id": "8b75d63a"
+      }
+    ],
+    "total_occurrences": 3
+  }
+]

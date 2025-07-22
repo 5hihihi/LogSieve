@@ -1,0 +1,120 @@
+{
+  "dataset": "BGL_2k.log",
+  "generated_time": "2025-07-17T15:59:36.785263",
+  "anomaly_count": 7,
+  "anomalies": [
+    {
+      "template": "Ido chip status changed : FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : <*> : <*> : <*> ip = <*> v = <*> t = <*> status = M <*> <*> <*> <*> : <*> : <*> PDT <*>",
+      "score": 0.66,
+      "metrics": {
+        "wildcard_ratio": 0.24,
+        "consecutive_wildcards": 0.92,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.13555555555555554,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "Ido chip status changed: FF:F2:9F:16:EB:27:00:0D:60:E9:14:D8 ip=10.0.2.192 v=13 t=4 status=M Thu Aug 04 15:29:45 PDT 2005",
+        "Ido chip status changed: FF:F2:9F:16:E2:23:00:0D:60:E9:1D:DC ip=10.0.0.151 v=9 t=4 status=M Fri Jul 01 08:16:53 PDT 2005",
+        "Ido chip status changed: FF:F2:9F:15:7B:E0:00:0D:60:EA:84:1F ip=10.7.0.130 v=13 t=1 status=M Sat Sep 17 07:49:04 PDT 2005"
+      ]
+    },
+    {
+      "template": "Error receiving packet on tree network , expecting type <*> instead of type <*> ( softheader = <*> <*> <*> <*> ) PSR0 = <*> PSR1 = <*> PRXF = <*> PIXF = <*>",
+      "score": 0.59,
+      "metrics": {
+        "wildcard_ratio": 0.19607843137254902,
+        "consecutive_wildcards": 0.92,
+        "wildcard_density": 0.9859310344827585,
+        "density_fluctuation": 0.12965517241379312,
+        "symbol_density": 0.0,
+        "numeric_density": 0.6666666666666666
+      },
+      "samples": [
+        "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",
+        "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",
+        "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00589370 90990003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007"
+      ]
+    },
+    {
+      "template": "New ido chip inserted into the database : FF : F2 : 9F : <*> : <*> : <*> : <*> : 0D : <*> : <*> : <*> : <*> ip = <*> v = <*> t = <*>",
+      "score": 0.53,
+      "metrics": {
+        "wildcard_ratio": 0.18333333333333332,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.12114285714285718,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "New ido chip inserted into the database: FF:F2:9F:16:BF:6C:00:0D:60:E9:40:93 ip=10.5.0.46 v=13 t=4",
+        "New ido chip inserted into the database: FF:F2:9F:15:1F:72:00:0D:60:EA:E0:8D ip=10.7.0.13 v=9 t=2",
+        "New ido chip inserted into the database: FF:F2:9F:16:C4:C2:00:0D:60:E9:3B:3D ip=10.2.1.37 v=13 t=4"
+      ]
+    },
+    {
+      "template": "PrepareForService shutting down NodeCard ( mLctn ( R25-M1-N2 ) , mCardSernum ( 203231503833343000000000594c31304b34333431303158 ) , mLp ( FF : F2 : 9F : <*> : CF : 0F : <*> : 0D : <*> : E9 : <*> : F0 ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>",
+      "score": 0.52,
+      "metrics": {
+        "wildcard_ratio": 0.08045977011494253,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9011320754716983,
+        "density_fluctuation": 0.18566037735849056,
+        "symbol_density": 0.13,
+        "numeric_density": 1
+      },
+      "samples": [
+        "PrepareForService shutting down NodeCard(mLctn(R25-M1-N2), mCardSernum(203231503833343000000000594c31304b34333431303158), mLp(FF:F2:9F:16:CF:0F:00:0D:60:E9:30:F0), mIp(10.2.2.80), mType(4)) as part of Service Action 310"
+      ]
+    },
+    {
+      "template": "PrepareForService shutting down Node card ( mLctn ( R10-M1-N2 ) , mCardSernum ( 203231503833343000000000594c31304b34323934303257 ) , mLp ( FF : F2 : 9F : <*> : E0 : DA : <*> : 0D : <*> : E9 : 1F : <*> ) , mIp ( <*> ) , mType ( <*> ) ) as part of Service Action <*>",
+      "score": 0.52,
+      "metrics": {
+        "wildcard_ratio": 0.07909604519774012,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9000000000000001,
+        "density_fluctuation": 0.17999999999999997,
+        "symbol_density": 0.13,
+        "numeric_density": 1
+      },
+      "samples": [
+        "PrepareForService shutting down Node card(mLctn(R10-M1-N2), mCardSernum(203231503833343000000000594c31304b34323934303257), mLp(FF:F2:9F:16:E0:DA:00:0D:60:E9:1F:25), mIp(10.1.1.164), mType(4)) as part of Service Action 648"
+      ]
+    },
+    {
+      "template": "<*> ddr <*> ( s ) detected and corrected on rank <*> , symbol <*> <*> <*> <*>",
+      "score": 0.46,
+      "metrics": {
+        "wildcard_ratio": 0.25925925925925924,
+        "consecutive_wildcards": 0.92,
+        "wildcard_density": 0.9821538461538462,
+        "density_fluctuation": 0.11076923076923076,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "159 ddr error(s) detected and corrected on rank 0, symbol 29 over 2486 seconds",
+        "1 ddr errors(s) detected and corrected on rank 0, symbol 33, bit 7",
+        "3 ddr errors(s) detected and corrected on rank 0, symbol 18, bit 0"
+      ]
+    },
+    {
+      "template": "ciod : In packet from node <*> ( R62-M1-Nf-C : J03-U11 ) , message code <*> is not <*> or <*> ( softheader = 003b005b <*> <*> <*> )",
+      "score": 0.46,
+      "metrics": {
+        "wildcard_ratio": 0.16091954022988506,
+        "consecutive_wildcards": 0.6399999999999999,
+        "wildcard_density": 0.4903333333333333,
+        "density_fluctuation": 0.051666666666666666,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "ciod: In packet from node 91.0 (R62-M1-Nf-C:J03-U11), message code 2 is not 3 or 4294967295 (softheader=003b005b 00030000 00000001 00000000)"
+      ]
+    }
+  ]
+}

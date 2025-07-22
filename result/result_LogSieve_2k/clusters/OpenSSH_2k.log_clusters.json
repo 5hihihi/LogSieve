@@ -1,0 +1,73 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "pam_unix ( sshd : auth ) : authentication failure; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*>",
+        "samples": [
+          "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn",
+          "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=173.234.31.186",
+          "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=202.100.179.208"
+        ],
+        "template_id": "491bc994"
+      },
+      {
+        "template": "pam_unix ( sshd : auth ) : authentication failure; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*> user = <*>",
+        "samples": [
+          "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root",
+          "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=195.154.37.122  user=uucp",
+          "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180  user=ftp"
+        ],
+        "template_id": "71e435aa"
+      }
+    ],
+    "total_occurrences": 494
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "Failed password for root from <*> port <*> ssh2",
+        "samples": [
+          "Failed password for root from 191.210.223.172 port 31473 ssh2",
+          "Failed password for root from 5.36.59.76 port 42393 ssh2",
+          "Failed password for root from 112.95.230.3 port 45378 ssh2"
+        ],
+        "template_id": "0af355cc"
+      },
+      {
+        "template": "Failed password for <*> from <*> port <*> ssh2",
+        "samples": [
+          "Failed password for mysql from 187.141.143.180 port 51060 ssh2",
+          "Failed password for uucp from 195.154.37.122 port 59266 ssh2",
+          "Failed password for ftp from 5.188.10.180 port 54715 ssh2"
+        ],
+        "template_id": "c166da54"
+      }
+    ],
+    "total_occurrences": 383
+  },
+  {
+    "cluster_id": "C0003",
+    "templates": [
+      {
+        "template": "PAM <*> more authentication failures; logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*> user = root",
+        "samples": [
+          "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root",
+          "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root"
+        ],
+        "template_id": "d3c1a2f3"
+      },
+      {
+        "template": "PAM <*> more authentication <*> logname = uid = <*> euid = <*> tty = ssh ruser = rhost = <*>",
+        "samples": [
+          "PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.190.58.151",
+          "PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180",
+          "PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180"
+        ],
+        "template_id": "6d7bbb3b"
+      }
+    ],
+    "total_occurrences": 10
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "dataset": "HDFS_2k.log",
+  "generated_time": "2025-07-17T16:00:24.760273",
+  "anomaly_count": 1,
+  "anomalies": [
+    {
+      "template": "Received block <*> src : <*> dest : <*> of size <*>",
+      "score": 0.31,
+      "metrics": {
+        "wildcard_ratio": 0.2222222222222222,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9337142857142858,
+        "density_fluctuation": 0.34857142857142864,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Received block blk_1473949624670719319 src: /10.251.29.239:35617 dest: /10.251.29.239:50010 of size 67108864",
+        "Received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864"
+      ]
+    }
+  ]
+}

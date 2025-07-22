@@ -1,0 +1,67 @@
+{
+  "dataset": "Zookeeper_2k.log",
+  "generated_time": "2025-07-17T15:52:05.016709",
+  "anomaly_count": 4,
+  "anomalies": [
+    {
+      "template": "Follower sid : <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4",
+      "score": 0.54,
+      "metrics": {
+        "wildcard_ratio": 0.08333333333333333,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9152000000000003,
+        "density_fluctuation": 0.4160000000000001,
+        "symbol_density": 0.71,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4"
+      ]
+    },
+    {
+      "template": "Got user-level KeeperException when processing sessionid : 0x34ed93485090001 type : create cxid : 0x55b8bb0f zxid : 0x100000010 txntype : <*> reqpath : n/a Error Path : /home/curi/.zookeeper Error : KeeperErrorCode = NodeExists for /home/curi/.zookeeper",
+      "score": 0.41,
+      "metrics": {
+        "wildcard_ratio": 0.0196078431372549,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.16275862068965521,
+        "density_fluctuation": 0.013793103448275864,
+        "symbol_density": 0.6,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper"
+      ]
+    },
+    {
+      "template": "Server environment : java.class.path = /etc/zookeeper/conf : /usr/share/java/jline.jar : /usr/share/java/log4j-1.2.jar : /usr/share/java/xercesImpl.jar : /usr/share/java/xmlParserAPIs.jar : /usr/share/java/netty.jar : /usr/share/java/slf4j-api.jar : /usr/share/java/slf4j-log4j12.jar : /usr/share/java/zookeeper.jar",
+      "score": 0.39,
+      "metrics": {
+        "wildcard_ratio": 0.0,
+        "consecutive_wildcards": 0.0,
+        "wildcard_density": 0.0,
+        "density_fluctuation": 0.0,
+        "symbol_density": 0.76,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar"
+      ]
+    },
+    {
+      "template": "Server environment : zookeeper.version = <*> , built on <*> <*> : <*> GMT",
+      "score": 0.38,
+      "metrics": {
+        "wildcard_ratio": 0.19047619047619047,
+        "consecutive_wildcards": 0.36,
+        "wildcard_density": 0.9373333333333335,
+        "density_fluctuation": 0.12666666666666668,
+        "symbol_density": 0.11,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT"
+      ]
+    }
+  ]
+}

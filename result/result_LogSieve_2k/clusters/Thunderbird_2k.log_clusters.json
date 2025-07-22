@@ -1,0 +1,83 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e3 : ba : c3 via eth1",
+        "samples": [
+          "DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1"
+        ],
+        "template_id": "06dd8742"
+      },
+      {
+        "template": "DHCPREQUEST for <*> ( <*> ) from <*> : <*> : <*> : e3 : ba : c3 via eth1 : unknown lease <*>.",
+        "samples": [
+          "DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251."
+        ],
+        "template_id": "bd534a5f"
+      }
+    ],
+    "total_occurrences": 12
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "FADT ( v001 DELL PE BKC 0x00000001 MSFT 0x0100000a ) @ 0x00000000000fd6b0",
+        "samples": [
+          "FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0"
+        ],
+        "template_id": "a927a567"
+      },
+      {
+        "template": "SPCR ( v001 DELL PE BKC 0x00000001 MSFT 0x0100000a ) @ 0x00000000000fd7cc",
+        "samples": [
+          "SPCR (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd7cc"
+        ],
+        "template_id": "52f8a121"
+      }
+    ],
+    "total_occurrences": 2
+  },
+  {
+    "cluster_id": "C0003",
+    "templates": [
+      {
+        "template": "PCI Interrupt Link [ <*> ] ( IRQs <*> <*> <*> <*> <*> <*> <*> <*> ) <*>",
+        "samples": [
+          "PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 10 11 12) *14",
+          "PCI Interrupt Link [LNKC] (IRQs 3 4 5 6 7 10 11 12) *15"
+        ],
+        "template_id": "11b1b540"
+      },
+      {
+        "template": "PCI Interrupt Link [ LNKB ] ( IRQs <*> <*> <*> <*> <*> <*> <*> <*> )",
+        "samples": [
+          "PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 10 *11 12)"
+        ],
+        "template_id": "53b942b0"
+      }
+    ],
+    "total_occurrences": 3
+  },
+  {
+    "cluster_id": "C0004",
+    "templates": [
+      {
+        "template": "... autorun DONE.",
+        "samples": [
+          "... autorun DONE."
+        ],
+        "template_id": "cd2a6bd5"
+      },
+      {
+        "template": "autorun ...",
+        "samples": [
+          "autorun ..."
+        ],
+        "template_id": "7ce70afa"
+      }
+    ],
+    "total_occurrences": 4
+  }
+]

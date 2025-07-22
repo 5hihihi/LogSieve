@@ -1,0 +1,2 @@
+Dataset,Template,AnomalyScore,WildcardRatio,ConsecutiveWildcards,WildcardDensity,SymbolDensity,NumericDensity,Sample1,Sample2
+HDFS_2k.log,Received block <*> src : <*> dest : <*> of size <*>,0.31,22.2%,8.0%,93.4%,0.0,0.0,Received block blk_1473949624670719319 src: /10.251.29.239:35617 dest: /10.251.29.239:50010 of size 67108864,Received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864

@@ -1,0 +1,70 @@
+{
+  "dataset": "HealthApp_2k.log",
+  "generated_time": "2025-07-17T15:53:22.994360",
+  "anomaly_count": 4,
+  "anomalies": [
+    {
+      "template": "upLoadOneMinuteDataToEngine time = <*> , <*> , <*> , <*> , <*>",
+      "score": 0.32,
+      "metrics": {
+        "wildcard_ratio": 0.2777777777777778,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.5142857142857142,
+        "density_fluctuation": 0.1714285714285714,
+        "symbol_density": 0.49,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "upLoadOneMinuteDataToEngine time=25233975,0,93,0,20002",
+        "upLoadOneMinuteDataToEngine time=25233976,0,1,0,20002",
+        "upLoadOneMinuteDataToEngine time=25233977,0,55,0,20002"
+      ]
+    },
+    {
+      "template": "Alarm uploadStaticsToDB totalSteps = 7163Calories : 153367Floor : 240Distance : <*>",
+      "score": 0.31,
+      "metrics": {
+        "wildcard_ratio": 0.06060606060606061,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.16666666666666669,
+        "density_fluctuation": 0.03333333333333333,
+        "symbol_density": 0.16,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112"
+      ]
+    },
+    {
+      "template": "insertHiHealthData ( ) bulkSaveDetailHiHealthData fail errorCode = <*> , errorMessage = ERR_DATA_INSERT",
+      "score": 0.29,
+      "metrics": {
+        "wildcard_ratio": 0.05555555555555555,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.16571428571428576,
+        "density_fluctuation": 0.028571428571428574,
+        "symbol_density": 0.9,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT"
+      ]
+    },
+    {
+      "template": "startSync hiSyncOption = HiSyncOption{syncAction = <*> , syncMethod = <*> , syncScope = <*> , syncDataType = <*> , syncModel = <*> , pushAction = 0} , app = <*> who = <*>",
+      "score": 0.25,
+      "metrics": {
+        "wildcard_ratio": 0.1414141414141414,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.3371428571428572,
+        "density_fluctuation": 0.08571428571428573,
+        "symbol_density": 0.22,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",
+        "startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1"
+      ]
+    }
+  ]
+}

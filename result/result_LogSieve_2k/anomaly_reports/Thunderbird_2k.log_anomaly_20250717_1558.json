@@ -1,0 +1,160 @@
+{
+  "dataset": "Thunderbird_2k.log",
+  "generated_time": "2025-07-17T15:58:33.709163",
+  "anomaly_count": 10,
+  "anomalies": [
+    {
+      "template": "DHCPDISCOVER from <*> : <*> : <*> : e3 : ba : c3 via eth1",
+      "score": 0.53,
+      "metrics": {
+        "wildcard_ratio": 0.13333333333333333,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.23600000000000004,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1"
+      ]
+    },
+    {
+      "template": "DHCPOFFER on <*> to <*> : <*> : <*> : e3 : ba : c3 via eth1",
+      "score": 0.53,
+      "metrics": {
+        "wildcard_ratio": 0.1568627450980392,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.22000000000000006,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1"
+      ]
+    },
+    {
+      "template": "DHCPACK on <*> to <*> : <*> : <*> : e3 : ba : c3 via eth1",
+      "score": 0.53,
+      "metrics": {
+        "wildcard_ratio": 0.1568627450980392,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.22000000000000006,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1"
+      ]
+    },
+    {
+      "template": "DHCPDISCOVER from <*> : <*> : <*> : e3 : ba : c3 via eth1 : network A_net : no free leases",
+      "score": 0.52,
+      "metrics": {
+        "wildcard_ratio": 0.09090909090909091,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.13882352941176473,
+        "symbol_density": 0.0,
+        "numeric_density": 1.0
+      },
+      "samples": [
+        "DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases"
+      ]
+    },
+    {
+      "template": "root = LABEL = / initrd = /x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console = tty0 console = ttyS0 , <*> fastboot BOOT_IMAGE = /x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr",
+      "score": 0.51,
+      "metrics": {
+        "wildcard_ratio": 0.03333333333333333,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.1626666666666667,
+        "density_fluctuation": 0.013333333333333334,
+        "symbol_density": 0.98,
+        "numeric_density": 1
+      },
+      "samples": [
+        "root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr"
+      ]
+    },
+    {
+      "template": "sys_ia32.c , v <*> <*> <*> : <*> : <*> ak Exp $",
+      "score": 0.49,
+      "metrics": {
+        "wildcard_ratio": 0.2564102564102564,
+        "consecutive_wildcards": 0.6399999999999999,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.285,
+        "symbol_density": 0.0,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $"
+      ]
+    },
+    {
+      "template": "probe new device 0x1028 : 0x0013 : 0x1028 : 0x016c : bus <*> : slot <*> : func <*>",
+      "score": 0.49,
+      "metrics": {
+        "wildcard_ratio": 0.10526315789473684,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.894857142857143,
+        "density_fluctuation": 0.1542857142857143,
+        "symbol_density": 0.0,
+        "numeric_density": 1
+      },
+      "samples": [
+        "probe new device 0x1028:0x0013:0x1028:0x016c: bus 2:slot 14:func 0"
+      ]
+    },
+    {
+      "template": "PCI Interrupt Link [ <*> ] ( IRQs <*> <*> <*> <*> <*> <*> <*> <*> ) <*> , disabled.",
+      "score": 0.48,
+      "metrics": {
+        "wildcard_ratio": 0.3333333333333333,
+        "consecutive_wildcards": 1.0,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.16000000000000003,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.",
+        "PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.",
+        "PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 10 11 12) *0, disabled."
+      ]
+    },
+    {
+      "template": "<*> ( Release Date : <*> <*> <*> <*> : <*> : <*> <*> <*> )",
+      "score": 0.48,
+      "metrics": {
+        "wildcard_ratio": 0.375,
+        "consecutive_wildcards": 0.92,
+        "wildcard_density": 1.0,
+        "density_fluctuation": 0.15090909090909085,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004)",
+        "#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004)"
+      ]
+    },
+    {
+      "template": "Transparent bridge - <*> : <*> : 1e.0",
+      "score": 0.39,
+      "metrics": {
+        "wildcard_ratio": 0.16666666666666666,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9749333333333334,
+        "density_fluctuation": 0.3946666666666667,
+        "symbol_density": 0.0,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "Transparent bridge - 0000:00:1e.0"
+      ]
+    }
+  ]
+}

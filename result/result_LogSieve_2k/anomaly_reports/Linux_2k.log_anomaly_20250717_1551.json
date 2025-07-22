@@ -1,0 +1,132 @@
+{
+  "dataset": "Linux_2k.log",
+  "generated_time": "2025-07-17T15:51:14.679796",
+  "anomaly_count": 8,
+  "anomalies": [
+    {
+      "template": "connection from <*> ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun <*> <*> <*>",
+      "score": 0.52,
+      "metrics": {
+        "wildcard_ratio": 0.2222222222222222,
+        "consecutive_wildcards": 0.6399999999999999,
+        "wildcard_density": 0.5028571428571429,
+        "density_fluctuation": 0.1142857142857143,
+        "symbol_density": 0.74,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005",
+        "connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005",
+        "connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005"
+      ]
+    },
+    {
+      "template": "Linux version <*> ( bhcompile@bugs.build.redhat.com ) ( gcc version <*> <*> ( Red Hat Linux <*> ) ) <*> Sat May <*> <*> EDT <*>",
+      "score": 0.4,
+      "metrics": {
+        "wildcard_ratio": 0.21333333333333335,
+        "consecutive_wildcards": 0.56,
+        "wildcard_density": 0.49839999999999995,
+        "density_fluctuation": 0.092,
+        "symbol_density": 0.58,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004"
+      ]
+    },
+    {
+      "template": "BIOS-e820 : <*> - <*> ( reserved )",
+      "score": 0.39,
+      "metrics": {
+        "wildcard_ratio": 0.16666666666666666,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9749333333333334,
+        "density_fluctuation": 0.3946666666666667,
+        "symbol_density": 0.0,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)",
+        "BIOS-e820: 0000000007eae000 - 0000000008000000 (reserved)",
+        "BIOS-e820: 00000000ffb00000 - 0000000100000000 (reserved)"
+      ]
+    },
+    {
+      "template": "Transparent bridge - <*> : <*> : 1e.0",
+      "score": 0.39,
+      "metrics": {
+        "wildcard_ratio": 0.16666666666666666,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9749333333333334,
+        "density_fluctuation": 0.3946666666666667,
+        "symbol_density": 0.0,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "Transparent bridge - 0000:00:1e.0"
+      ]
+    },
+    {
+      "template": "PCI : Using IRQ router PIIX<*> [ <*> ] at <*> : <*> : 1f.0",
+      "score": 0.36,
+      "metrics": {
+        "wildcard_ratio": 0.13333333333333333,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.8856,
+        "density_fluctuation": 0.10800000000000001,
+        "symbol_density": 0.0,
+        "numeric_density": 0.3333333333333333
+      },
+      "samples": [
+        "PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0"
+      ]
+    },
+    {
+      "template": "audit ( <*> : <*> ) : initialized",
+      "score": 0.32,
+      "metrics": {
+        "wildcard_ratio": 0.16666666666666666,
+        "consecutive_wildcards": 0.08000000000000002,
+        "wildcard_density": 0.9749333333333334,
+        "density_fluctuation": 0.3946666666666667,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "audit(1122475266.4294965305:0): initialized"
+      ]
+    },
+    {
+      "template": "User unknown timed out after <*> seconds at Sat Jun <*> <*> <*>",
+      "score": 0.27,
+      "metrics": {
+        "wildcard_ratio": 0.20512820512820512,
+        "consecutive_wildcards": 0.6399999999999999,
+        "wildcard_density": 0.499,
+        "density_fluctuation": 0.095,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005"
+      ]
+    },
+    {
+      "template": "connection from <*> ( <*> ) at Sun Jul <*> <*> <*>",
+      "score": 0.27,
+      "metrics": {
+        "wildcard_ratio": 0.2777777777777778,
+        "consecutive_wildcards": 0.6399999999999999,
+        "wildcard_density": 0.4971428571428571,
+        "density_fluctuation": 0.08571428571428572,
+        "symbol_density": 0.0,
+        "numeric_density": 0.0
+      },
+      "samples": [
+        "connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005",
+        "connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005"
+      ]
+    }
+  ]
+}

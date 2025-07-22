@@ -1,0 +1,46 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "ciod : Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> : <*> : Link has been severed",
+        "samples": [
+          "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:42213: Link has been severed",
+          "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:45713: Link has been severed",
+          "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:41304: Link has been severed"
+        ],
+        "template_id": "7cb01af1"
+      },
+      {
+        "template": "ciod : Error reading message prefix on CioStream socket to <*> : <*> , Link has been severed",
+        "samples": [
+          "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:41534, Link has been severed",
+          "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:54780, Link has been severed",
+          "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:60243, Link has been severed"
+        ],
+        "template_id": "cb61d532"
+      }
+    ],
+    "total_occurrences": 17
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "<*> L3 EDRAM error ( s ) ( dcr 0x0157 ) detected and corrected",
+        "samples": [
+          "3 L3 EDRAM error(s) (dcr 0x0157) detected and corrected"
+        ],
+        "template_id": "a88fe0e6"
+      },
+      {
+        "template": "<*> L3 EDRAM error ( s ) ( dcr 0x0157 ) detected and corrected over <*> seconds",
+        "samples": [
+          "2 L3 EDRAM error(s) (dcr 0x0157) detected and corrected over 282 seconds"
+        ],
+        "template_id": "97d6d48f"
+      }
+    ],
+    "total_occurrences": 2
+  }
+]

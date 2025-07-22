@@ -1,0 +1,182 @@
+[
+  {
+    "cluster_id": "C0001",
+    "templates": [
+      {
+        "template": "mDNS_DeregisterInterface : Frequent transitions for interface <*> ( <*> : <*> : <*> : <*> : <*> : <*> : <*> : <*> )",
+        "samples": [
+          "mDNS_DeregisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF)",
+          "mDNS_DeregisterInterface: Frequent transitions for interface en0 (2607:F140:6000:0008:C6B3:01FF:FECD:467F)"
+        ],
+        "template_id": "0873e26f"
+      },
+      {
+        "template": "mDNS_RegisterInterface : Frequent transitions for interface <*> ( FE80 : <*> : <*> : <*> : <*> : <*> : <*> : <*> )",
+        "samples": [
+          "mDNS_RegisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF)",
+          "mDNS_RegisterInterface: Frequent transitions for interface en0 (FE80:0000:0000:0000:C6B3:01FF:FECD:467F)"
+        ],
+        "template_id": "9f9bd9ff"
+      },
+      {
+        "template": "mDNS_DeregisterInterface : Frequent transitions for interface <*> ( <*> )",
+        "samples": [
+          "mDNS_DeregisterInterface: Frequent transitions for interface en0 (10.142.110.44)",
+          "mDNS_DeregisterInterface: Frequent transitions for interface en0 (10.105.162.32)"
+        ],
+        "template_id": "ec0581bf"
+      }
+    ],
+    "total_occurrences": 9
+  },
+  {
+    "cluster_id": "C0002",
+    "templates": [
+      {
+        "template": "<*> : scheduler_evaluate_activity told me to run this job; however , but the start time isn't for <*> seconds. Ignoring.",
+        "samples": [
+          "com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2450 seconds.  Ignoring.",
+          "com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 439034 seconds.  Ignoring.",
+          "com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 13090 seconds.  Ignoring."
+        ],
+        "template_id": "f7056939"
+      },
+      {
+        "template": "<*> : //DB05755C-483D-44B7-B93B-ED06E57FF420/CalDAVPrincipal/p11 : scheduler_evaluate_activity told me to run this job; however , but the start time isn't for <*> seconds. Ignoring.",
+        "samples": [
+          "com.apple.ical.sync.x-coredata://DB05755C-483D-44B7-B93B-ED06E57FF420/CalDAVPrincipal/p11: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 59 seconds.  Ignoring."
+        ],
+        "template_id": "4c683e03"
+      }
+    ],
+    "total_occurrences": 166
+  },
+  {
+    "cluster_id": "C0003",
+    "templates": [
+      {
+        "template": "IO80211AWDLPeerManager : : setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED",
+        "samples": [
+          "IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED"
+        ],
+        "template_id": "2782e72c"
+      },
+      {
+        "template": "IO80211AWDLPeerManager : : setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO",
+        "samples": [
+          "IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO"
+        ],
+        "template_id": "ffb67223"
+      }
+    ],
+    "total_occurrences": 20
+  },
+  {
+    "cluster_id": "C0004",
+    "templates": [
+      {
+        "template": "<*> : <*> : <*> : BTLE scanner Powered On",
+        "samples": [
+          "10:46:47.425 : BTLE scanner Powered On",
+          "11:49:29.473 : BTLE scanner Powered On",
+          "13:20:12.402 : BTLE scanner Powered On"
+        ],
+        "template_id": "450fd048"
+      },
+      {
+        "template": "<*> : <*> : <*> : BTLE scanner Powered Off",
+        "samples": [
+          "21:48:53.041 : BTLE scanner Powered Off",
+          "18:37:30.916 : BTLE scanner Powered Off",
+          "19:17:46.405 : BTLE scanner Powered Off"
+        ],
+        "template_id": "38cc1980"
+      }
+    ],
+    "total_occurrences": 12
+  },
+  {
+    "cluster_id": "C0005",
+    "templates": [
+      {
+        "template": "Captive : CNPluginHandler <*> : Evaluating",
+        "samples": [
+          "Captive: CNPluginHandler en0: Evaluating"
+        ],
+        "template_id": "4782e9f1"
+      },
+      {
+        "template": "Captive : CNPluginHandler <*> : <*>",
+        "samples": [
+          "Captive: CNPluginHandler en0: Authenticated",
+          "Captive: CNPluginHandler en0: Inactive",
+          "Captive: CNPluginHandler en0: Evaluating"
+        ],
+        "template_id": "2da9ffd4"
+      }
+    ],
+    "total_occurrences": 15
+  },
+  {
+    "cluster_id": "C0006",
+    "templates": [
+      {
+        "template": "tcp_connection_destination_perform_socket_connect <*> connectx to <*> : <*> failed : [ <*> ] Network is down",
+        "samples": [
+          "tcp_connection_destination_perform_socket_connect 44073 connectx to 123.125.50.30:143@0 failed: [50] Network is down",
+          "tcp_connection_destination_perform_socket_connect 19110 connectx to 183.57.48.75:80@0 failed: [50] Network is down",
+          "tcp_connection_destination_perform_socket_connect 45238 connectx to 123.125.50.30:993@0 failed: [50] Network is down"
+        ],
+        "template_id": "416586ff"
+      },
+      {
+        "template": "tcp_connection_destination_perform_socket_connect <*> connectx to <*> : 8080@0 failed : [ <*> ] Network is unreachable",
+        "samples": [
+          "tcp_connection_destination_perform_socket_connect 21152 connectx to 203.205.147.206:8080@0 failed: [51] Network is unreachable"
+        ],
+        "template_id": "a1928d67"
+      }
+    ],
+    "total_occurrences": 4
+  },
+  {
+    "cluster_id": "C0007",
+    "templates": [
+      {
+        "template": "network changed : DNS* Proxy",
+        "samples": [
+          "network changed: DNS* Proxy"
+        ],
+        "template_id": "d9d3c566"
+      },
+      {
+        "template": "network changed : DNS*",
+        "samples": [
+          "network changed: DNS*"
+        ],
+        "template_id": "31d20ea1"
+      }
+    ],
+    "total_occurrences": 4
+  },
+  {
+    "cluster_id": "C0008",
+    "templates": [
+      {
+        "template": "<*> : Supported channels <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>",
+        "samples": [
+          "en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161"
+        ],
+        "template_id": "2d07db2d"
+      },
+      {
+        "template": "<*> : Supported channels <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>",
+        "samples": [
+          "en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165"
+        ],
+        "template_id": "73c08824"
+      }
+    ],
+    "total_occurrences": 4
+  }
+]
