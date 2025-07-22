@@ -45,7 +45,7 @@ Owing to the large scale of the benchmark in the experiments, the requirements o
 
 ### Quick Demo
 
-We give a demo script to run LogSieve on both Loghub-2k and Loghub-2.0, this will takes about 2-3 hours.
+We give a demo script to run LogSieve on both Loghub-2k and Loghub-2.0, this will takes about 4-5 hours.
 
 ```bash
 cd benchmark/
